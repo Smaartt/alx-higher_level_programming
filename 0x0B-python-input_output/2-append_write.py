@@ -5,13 +5,13 @@ returns JSON representation of obj (string)
 """
 
 
-def to_json_string(f_obj):
+def to_json_string(my_obj):
     """Returns JSON representation of obj (string)
     Args:
-        f_obj: python object
+        my_obj: python object
     Return:
         json string representation
     """
     import json
 
-    return json.dumps(f_obj)
+    return json.dumps(my_obj)
